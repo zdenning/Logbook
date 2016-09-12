@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/single_entry_layout"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:longClickable="true"
+    android:orientation="horizontal"
+    android:paddingLeft="0sp"
+    android:clickable="true">
+
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".35">
+        <TextView
+            android:id="@+id/glucose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textSize="28sp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/mgdL"
+            android:id="@+id/mgdL"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="false"
+            android:layout_marginEnd="37dp"
+            android:layout_alignParentRight="false"
+            android:paddingBottom="10dp"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="16dp"
+            android:textSize="12sp"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".35">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/carbs"
+            android:textSize="28sp"
+            android:layout_alignParentRight="false"
+            android:layout_centerInParent="true"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/carbs"
+            android:id="@+id/carbsLabel"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="10dp"
+            android:textSize="12sp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignStart="@id/carbs"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".30">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:34 PM"
+            android:id="@+id/time"
+            android:layout_column="12"
+            android:textSize="16sp"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="false"
+            android:paddingLeft="0dp"
+            android:layout_alignParentLeft="false"
+            android:paddingTop="0dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="16dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

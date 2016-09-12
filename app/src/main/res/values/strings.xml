@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Logbook</string>
+    <string name="add">Add Entry</string>
+    <string name="cancel">Cancel</string>
+    <string name="text">Text</string>
+    <string name="delete">Delete</string>
+    <string name="glucose">Glucose</string>
+    <string name="carbs">carbs</string>
+    <string name="mgdL">mg/dL</string>
+    <string name="grams">grams</string>
+    <string name="facebook_app_id">Logbook</string>
+</resources>
